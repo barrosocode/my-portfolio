@@ -6,43 +6,37 @@ import Grid from "@mui/material/Grid2";
 const Contato = () => {
     return (
         <Card>
-            <Grid container spacing={5} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} padding={3}>
-                <Grid size={2}>
-                    <Typography variant={"h5"}>Nome:</Typography>
+            <Grid container padding={5} rowSpacing={2}>
+                <Grid container spacing={5} style={{minWidth: "100%"}}>
+                    <Grid size={"grow"}>
+                        <Typography variant={"h5"}>Nome:</Typography>
+                        <TextField variant="outlined" fullWidth />
+                    </Grid>
                 </Grid>
-                <Grid size={"grow"}>
-                    <TextField variant="outlined" fullWidth />
+                <Grid container spacing={5} style={{minWidth: "100%"}}>
+                    <Grid size={"grow"}>
+                        <Typography variant={"h5"}>Email:</Typography>
+                        <TextField variant="outlined" fullWidth />
+                    </Grid>
                 </Grid>
-            </Grid>
-            <Grid container spacing={5} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} padding={3}>
-                <Grid size={2}>
-                    <Typography variant={"h5"}>Email:</Typography>
+                <Grid container spacing={5} style={{minWidth: "100%"}}>
+                    <Grid size={"grow"}>
+                        <Typography variant={"h5"}>Telefone:</Typography>
+                        <TextField variant="outlined" fullWidth />
+                    </Grid>
                 </Grid>
-                <Grid size={"grow"}>
-                    <TextField variant="outlined" fullWidth />
+                <Grid container spacing={5} style={{minWidth: "100%"}}>
+                    <Grid size={"grow"}>
+                        <Typography variant={"h5"}>Mensagem:</Typography>
+                        <TextField multiline rows={5} variant="outlined" fullWidth />
+                    </Grid>
                 </Grid>
-            </Grid>
-            <Grid container spacing={5} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} padding={3}>
-                <Grid size={2}>
-                    <Typography variant={"h5"}>Telefone:</Typography>
-                </Grid>
-                <Grid size={"grow"}>
-                    <TextField variant="outlined" fullWidth />
-                </Grid>
-            </Grid>
-            <Grid container spacing={5} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} padding={3}>
-                <Grid size={2}>
-                    <Typography variant={"h5"}>Mensagem:</Typography>
-                </Grid>
-                <Grid size={"grow"}>
-                    <TextField multiline rows={5} variant="outlined" fullWidth />
-                </Grid>
-            </Grid>
-            <Grid container spacing={5} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} padding={3}>
-                <Grid size={2}>
-                    <Button variant="contained" fullWidth>
-                        Enviar
-                    </Button>
+                <Grid container spacing={5} alignItems="center" justifyContent="center" style={{minWidth: "100%"}}>
+                    <Grid size={2}>
+                        <Button variant="contained" fullWidth>
+                            Enviar
+                        </Button>
+                    </Grid>
                 </Grid>
             </Grid>
         </Card>

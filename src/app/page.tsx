@@ -49,7 +49,7 @@ export default function Home() {
                     </Grid>
                     {/* PHP + Laravel, Python + Django, Next.js, */}
                     <Grid container spacing={5} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} marginTop={5}>
-                        <Grid size={6}>
+                        <Grid size={{xs: 12, md: 10, lg: 6}}>
                             <Typography textAlign={"center"} variant="h6">
                                 Bem vindo ao meu portfólio! <br />
                                 Me chamo Gabriel Barroso, tenho 24 anos e sou desenvolvedor full stack. Dentre as minhas hard skills estão PHP + Laravel, Python + Django, Next.js, Node.js, Typescript, HTML5, CSS3, Git e metodologia ágil SCRUM . <br />
@@ -93,7 +93,7 @@ export default function Home() {
                             </Typography>
                         </Grid>
                     </Grid>
-                    <Grid container spacing={8} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} textAlign={"center"} marginTop={5}>
+                    <Grid container spacing={8} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} marginTop={5}>
                         <Grid size={{xs: 12, md: 10, lg: 8}}>
                             <Contato />
                         </Grid>
