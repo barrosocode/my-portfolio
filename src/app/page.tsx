@@ -60,7 +60,7 @@ export default function Home() {
                     <Grid container spacing={5} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} textAlign={"center"} id={"sobre"} marginTop={5}>
                         <Grid>
                             <Typography variant="h2" textAlign="center">
-                                Sobre
+                                Sobre teste
                             </Typography>
                         </Grid>
                     </Grid>
