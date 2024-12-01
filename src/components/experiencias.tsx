@@ -1,6 +1,6 @@
 // Imports
 
-import {Card, Typography} from "@mui/material";
+import {Card, Chip, Typography} from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import BusinessIcon from "@mui/icons-material/Business";
 
@@ -28,7 +28,8 @@ const Experiencia = (e: EmpresaInterface) => {
                         </Grid>
                         {e.tecnology.map((t, index) => (
                             <Grid key={index}>
-                                <Typography key={index}>{t ?? "Tecnologias"}</Typography>
+                                <Chip label={t} variant="outlined" />
+                                {/* <Typography key={index}>{t ?? "Tecnologias"}</Typography> */}
                             </Grid>
                         ))}
                     </Grid>
