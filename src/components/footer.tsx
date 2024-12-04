@@ -47,7 +47,7 @@ const Footer = () => {
                     </Grid>
                     <Grid>
                         <Typography>
-                            <Link href="https://wa.me/558491189772?text=Olá,%20Barroso,%20cheguei%20aqui%20pelo%20seu%20portfolio" underline={"none"} target="blank">
+                            <Link href="https://wa.me/558491075701?text=Olá,%20Barroso,%20cheguei%20aqui%20pelo%20seu%20portfolio" underline={"none"} target="blank">
                                 84 9 9107-5701
                             </Link>
                         </Typography>
