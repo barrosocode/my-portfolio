@@ -1,7 +1,8 @@
 // Imports
 import {Card, Chip, Link, Typography} from "@mui/material";
 import Grid from "@mui/material/Grid2";
-import CircleImage from "./circle-image";
+// import CircleImage from "./circle-image";
+import Image from "next/image";
 
 interface ProjetoInterface {
     name: string;
@@ -16,11 +17,23 @@ const Projeto = (p: ProjetoInterface) => {
     return (
         <Card sx={{borderRadius: 3}}>
             <Grid container spacing={3} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} textAlign={"center"} padding={2}>
-                <Grid size={4}>
-                    <CircleImage image={p.image} />
+                <Grid size={12}>
+                    {/* <CircleImage image={p.image} /> */}
                     <Typography variant="h5">{p.name}</Typography>
                 </Grid>
-                <Grid size={8}>
+                <Grid size={12}>
+                    <Image
+                        src={p.image}
+                        alt={`Imagem do projeto ${p.name}`}
+                        width={480}
+                        height={270}
+                        style={{
+                            objectFit: "cover",
+                            border: "2px solid #ccc",
+                        }}
+                    />
+                </Grid>
+                <Grid size={12}>
                     <Grid padding={2}>
                         <Typography fontSize={18}>{p.description}</Typography>
                     </Grid>

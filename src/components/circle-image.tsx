@@ -10,7 +10,7 @@ const CircleImage = ({image}: CircleImageProps) => {
     return (
         <Image
             src={image}
-            alt="Circular example"
+            alt={`Imagem ${image} em formato circular`}
             width={200} // Largura da imagem
             height={200} // Altura da imagem
             style={{

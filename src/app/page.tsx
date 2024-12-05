@@ -25,16 +25,23 @@ const projetos = [
     {
         name: "Servclub",
         tecnology: ["PHP", "Laravel", "Next.js", "Typescript", "Docker"],
-        description: "Desenvolvimento da interface do usuário e de parte da API de um sistema administrativo para gerenciamento de usuários, contratos, eventos e unidades. Integração com sistema de catracas por reconhecimento facial.",
-        image: "/servclub2.png",
+        description: "Sistema integrado, envolvendo aplicativo, sistema administrativo Saas, API e integração com sistema de catracas por reconhecimento facial. O sistema foi desenvolvido para uma rede de parques aquáticos e inclui gerenciamento de contratos, usuários, eventos e planos. Nesse projeto, atuei no desenvolvimento da interface da plataforma web, da API e do sistema de reconhecimento facial.",
+        image: "/plataforma-servclub.png",
         link: "https://servclube.vercel.app/dashboard/",
     },
     {
-        name: "Nome Projeto 2",
-        tecnology: ["PHP", "Laravel", "Python"],
-        description: "string urante esse período, participei de vários projetos, entre eles, destacam-se a API para um sistema de ensino financeiro, que incluía consumo de API externa, tratamen",
-        image: "/servclub2.png",
-        link: "string",
+        name: "Plataforma II SIT - Cang",
+        tecnology: ["PHP", "Laravel", "Bootstrap"],
+        description: "Projeto de pesquisa e extensão desenvolvido em equipe durante o período de estudos no IFRN campus Canguaretama. Trata-se de um sistema para divulgação de evento acadêmico, gerenciamento de trabalhos enviados e geração de certificados. Nesse projeto, atuei no desenvolvimento da interface do sistema.",
+        image: "/ii-sit-image.png",
+        link: "https://eventos.ifrn.edu.br/sitcang/",
+    },
+    {
+        name: "Tatour",
+        tecnology: ["PHP", "Laravel", "Bootstrap"],
+        description: "Sistema para venda de passeios turísticos. Plataforma de E-commerce com agendamento e gerenciamento de passeios e integração com sistema de pagamentos. Nesse projeto, participei com desenvolvimento de parte da API e parte da interface do sistema.",
+        image: "/tatour-image.png",
+        link: "https://www.tatour.com.br/",
     },
 ];
 
@@ -43,9 +50,9 @@ export default function Home() {
     return (
         <Fragment>
             {/*Grid Pai*/}
-            <Grid container spacing={5} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} padding={2}>
-                <Grid size={{xs: 12, sm: 12, md: 10}} padding={3}>
-                    <Grid container spacing={5} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} marginTop={5}>
+            <Grid container spacing={5} alignItems="center" justifyContent="center" style={{minWidth: "100%"}}>
+                <Grid size={{xs: 12, sm: 12, md: 10}}>
+                    <Grid container spacing={5} alignItems="center" justifyContent="center" style={{minWidth: "100%"}}>
                         <Grid>
                             <CircleImage image="/profile.png" />
                         </Grid>
@@ -96,12 +103,6 @@ export default function Home() {
                                 <Projeto {...projeto} />
                             </Grid>
                         ))}
-                        {/* <Grid size={{xs: 12, md: 6}}>
-                            <Projeto />
-                        </Grid>
-                        <Grid size={{xs: 12, md: 6}}>
-                            <Projeto />
-                        </Grid> */}
                     </Grid>
                     <Grid container spacing={5} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} textAlign={"center"} id={"contato"} marginTop={5}>
                         <Grid>

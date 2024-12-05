@@ -32,8 +32,11 @@ const RootLayout = ({children}: RootLayoutProps) => {
                         <Menu />
                     </Grid>
 
-                    {/* Espaçamento para compensar o menu fixo */}
-                    <Grid container spacing={5} sx={{paddingTop: 10, padding: 3}}>
+                    {/* Espaçamento para compensar o menu fixo
+
+                    sx={{paddingTop: 10, padding: 3}}
+                    */}
+                    <Grid container spacing={5} marginTop={20} padding={3}>
                         {children}
                     </Grid>
                 </ThemeProvider>
