@@ -30,6 +30,8 @@ const Projeto = (p: ProjetoInterface) => {
                         style={{
                             objectFit: "cover",
                             border: "2px solid #ccc",
+                            maxWidth: "100%", // Responsividade
+                            height: "auto", // Mantém a proporção
                         }}
                     />
                 </Grid>

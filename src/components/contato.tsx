@@ -53,7 +53,7 @@ const Contato = () => {
                         </Grid>
                     </Grid>
                     <Grid container spacing={5} alignItems="center" justifyContent="center" style={{minWidth: "100%"}}>
-                        <Grid size={2}>
+                        <Grid>
                             <Button variant="contained" fullWidth type="submit">
                                 Enviar
                             </Button>
