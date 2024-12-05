@@ -30,18 +30,18 @@ const projetos = [
         link: "https://servclube.vercel.app/dashboard/",
     },
     {
-        name: "Plataforma II SIT - Cang",
-        tecnology: ["PHP", "Laravel", "Bootstrap"],
-        description: "Projeto de pesquisa e extensão desenvolvido em equipe durante o período de estudos no IFRN campus Canguaretama. Trata-se de um sistema para divulgação de evento acadêmico, gerenciamento de trabalhos enviados e geração de certificados. Nesse projeto, atuei no desenvolvimento da interface do sistema.",
-        image: "/ii-sit-image.png",
-        link: "https://eventos.ifrn.edu.br/sitcang/",
-    },
-    {
         name: "Tatour",
         tecnology: ["PHP", "Laravel", "Bootstrap"],
         description: "Sistema para venda de passeios turísticos. Plataforma de E-commerce com agendamento e gerenciamento de passeios e integração com sistema de pagamentos. Nesse projeto, participei com desenvolvimento de parte da API e parte da interface do sistema.",
         image: "/tatour-image.png",
         link: "https://www.tatour.com.br/",
+    },
+    {
+        name: "Plataforma II SIT - Cang",
+        tecnology: ["PHP", "Laravel", "Bootstrap"],
+        description: "Projeto de pesquisa e extensão desenvolvido em equipe durante o período de estudos no IFRN campus Canguaretama. Trata-se de um sistema para divulgação de evento acadêmico, gerenciamento de trabalhos enviados e geração de certificados. Nesse projeto, atuei no desenvolvimento da interface do sistema.",
+        image: "/ii-sit-image.png",
+        link: "https://eventos.ifrn.edu.br/sitcang/",
     },
 ];
 
