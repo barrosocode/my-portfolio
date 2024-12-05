@@ -5,7 +5,7 @@ import {Fragment} from "react";
 import Grid from "@mui/material/Grid2";
 import Experiencia from "@/components/experiencias";
 import Projeto from "@/components/projetos";
-import Contato from "@/components/contato";
+// import Contato from "@/components/contato";
 import Footer from "@/components/footer";
 
 const empresas = [
@@ -106,16 +106,19 @@ export default function Home() {
                     </Grid>
                     <Grid container spacing={5} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} textAlign={"center"} id={"contato"} marginTop={5}>
                         <Grid>
-                            <Typography variant="h2" textAlign="center">
+                            {/* <Typography variant="h2" textAlign="center">
                                 Contato
+                            </Typography> */}
+                            <Typography variant="h6">
+                                Caso deseje conversar comigo, me acione por algum dos contatos abaixo! <br />É só clicar e você será direcionado.
                             </Typography>
                         </Grid>
                     </Grid>
-                    <Grid container spacing={8} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} marginTop={5}>
+                    {/* <Grid container spacing={8} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} marginTop={5}>
                         <Grid size={{xs: 12, md: 10, lg: 8}}>
                             <Contato />
                         </Grid>
-                    </Grid>
+                    </Grid> */}
                 </Grid>
             </Grid>
             <Grid container style={{minWidth: "100%"}}>

@@ -9,7 +9,6 @@ import CopyrightIcon from "@mui/icons-material/Copyright";
 // Compoent
 const Footer = () => {
     return (
-        // <Card>
         <Grid container>
             <Grid container spacing={5} alignContent={"center"} justifyContent={"center"} style={{minWidth: "100%"}} padding={2}>
                 {/* LinkedIn */}
@@ -33,7 +32,7 @@ const Footer = () => {
                     </Grid>
                     <Grid>
                         <Typography>
-                            <Link href="gabrielbarrosofg@yahoo.com.br" underline={"none"} target="blank">
+                            <Link href="mailto:gabrielbarrosofg@yahoo.com.br?subject=Vi%20seu%20portfolio" underline={"none"} target="blank">
                                 gabrielbarrosofg@yahoo.com.br
                             </Link>
                         </Typography>
@@ -47,7 +46,7 @@ const Footer = () => {
                     </Grid>
                     <Grid>
                         <Typography>
-                            <Link href="https://wa.me/558491075701?text=Olá,%20Barroso,%20cheguei%20aqui%20pelo%20seu%20portfolio" underline={"none"} target="blank">
+                            <Link href="https://wa.me/558491075701?text=Olá,%20Barroso" underline={"none"} target="blank">
                                 84 9 9107-5701
                             </Link>
                         </Typography>
@@ -63,7 +62,6 @@ const Footer = () => {
                 </Grid>
             </Grid>
         </Grid>
-        // </Card>
     );
 };
 
