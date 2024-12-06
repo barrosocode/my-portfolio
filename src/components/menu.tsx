@@ -84,7 +84,7 @@ const Menu = () => {
         <Fragment>
             <Grid
                 container
-                spacing={2}
+                spacing={3}
                 justifyContent="center"
                 sx={{
                     margin: 3,
