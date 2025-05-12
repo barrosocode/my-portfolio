@@ -15,10 +15,9 @@ interface ProjetoInterface {
 // Component
 const Projeto = (p: ProjetoInterface) => {
     return (
-        <Card sx={{borderRadius: 3}}>
+        <Card sx={{borderRadius: 3, height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between"}}>
             <Grid container spacing={3} alignItems="center" justifyContent="center" style={{minWidth: "100%"}} textAlign={"center"} padding={2}>
                 <Grid size={12}>
-                    {/* <CircleImage image={p.image} /> */}
                     <Typography variant="h5">{p.name}</Typography>
                 </Grid>
                 <Grid size={12}>
